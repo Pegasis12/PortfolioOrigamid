@@ -3,7 +3,7 @@
   max-width: 1200px;
   /* espaço entre as bordas */
   padding: 40px 20px;
-  /* serve para sempre alinha o site todo ao meio independete do tamnho do monitor */
+  /* serve para sempre alinhar o site todo ao meio independete do tamnho do monitor */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
