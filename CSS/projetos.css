@@ -37,7 +37,6 @@
     padding: 60px 20px;
     gap: 40px;
   }
-
   .projetos-galeria {
     grid-template-columns: 1fr;
   }
