@@ -1,6 +1,4 @@
-.footer {
-  background-color: #000;
-}
+
 
 .footer-container {
   max-width: 1200px;
@@ -9,7 +7,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 100px;
-  align-items: center;
+  justify-items: center;
 }
 
 .footer-texto {
@@ -20,10 +18,11 @@
 
 .footer-contato li {
   font-weight: bold;
-  font-size: 2.25rem;
+  font-size: 1.125rem;
   line-height: 1.1;
   color: #fff;
   margin-bottom: 30px;
+  position: relative;
 }
 
 .footer-contato a {
@@ -36,12 +35,38 @@
   color: #8f8f8f;
 }
 
+.footer-contato h3::before {
+  display: block;
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: -50px;
+  top: -7px;
+}
+
+.footer-contato .email::before {
+  background: url("../Img/email.svg") no-repeat center center;
+}
+
+.footer-contato .linkedin::before {
+  background: url("../Img/linkedin.svg") no-repeat center center;
+}
+
+.footer-contato .github::before {
+  background: url("../Img/Vector.svg") no-repeat center center;
+}
+
+
 @media (max-width: 800px) {
   .footer-container {
     grid-template-columns: 1fr;
-    gap: 40px;
   }
   .footer-contato li{
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
+  .footer-contato h3::before {
+    display: none;
+  }
+  
 }

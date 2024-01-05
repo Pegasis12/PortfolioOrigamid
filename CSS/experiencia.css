@@ -14,9 +14,9 @@
 .experiencia-texto {
   font-size: 1.5rem;
   line-height: 1.33;
-  max-width: 40ch;
+  max-width: 60ch;
   margin-bottom: 60px;
-  color: #525252;
+  color: #F0F0F0;
 }
 
 .experiencia-texto strong {
@@ -49,7 +49,7 @@
   position: absolute;
   top: 22px;
   left: -100px;
-  color: #525252;
+  color: #F0F0F0;
   width: 80px;
   text-align: right;
   font-size: 0.875rem;
