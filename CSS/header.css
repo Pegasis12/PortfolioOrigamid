@@ -19,6 +19,7 @@
 
 .header-menu a {
   font-size: 1.125rem;
+  font-weight: 600;
   line-height: 1.3;
   /* colocando padding para aumentar a area de contato do click */
   padding: 10px 20px;
@@ -27,9 +28,17 @@
   display: block;
 }
 
+.header-menu a:hover {
+  color: #8F8F8F;
+}
+
 .header-titulo a {
   text-decoration: none;
   color: #141414;
+}
+
+.header-titulo a:hover {
+  color: #8F8F8F;
 }
 
 @media (max-width: 800px) {
